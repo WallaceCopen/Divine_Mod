@@ -17,10 +17,9 @@ public class ModItems {
     public static final RegistryObject<Item> CHARGED_BRONZE = ITEMS.register("charged_bronze",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> BOTTLE_OF_LIGHTNING = ITEMS.register("bottle_of_lightning",
+    public static final RegistryObject<Item> BOTTLE_OF_LIGHTNING = ITEMS.register("bottle_of_lightning.json",
             () -> new Item(new Item.Properties()));
-
-
+    
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
